@@ -1,0 +1,28 @@
+
+# MODEL CONFIGURATION
+BATCH_SIZE : 32
+BLOCK_SIZE : 128
+MAX_ITERS : 200
+LEARNING_RATE : 0.0003
+EVAL_ITERS : 100
+N_EMBD : 384
+N_HEAD : 1
+N_LAYER : 1
+DROPOUT: 0.2
+
+# Data Configuration
+# VOCAB_PATH: data/openwebtext/vocab.txt
+# TRAIN_PATH: data/openwebtext/train_split.tx
+# VAL_PATH:   data/openwebtext/val_split.txt
+VOCAB_PATH: data/vocab.txt
+TRAIN_PATH: data/wizard_of_oz.txt
+VAL_PATH:   data/wizard_of_oz.txt
+
+FOLDER_PATH: data/openwebtext.tar/openwebtext
+OUTPUT_FILE_TRAIN: output_train.txt
+OUTPUT_FILE_VAL: output_val.txt
+
+
+# Model Configuration
+MODEL_PATH: model/khmerllm-v01.pkl
+
